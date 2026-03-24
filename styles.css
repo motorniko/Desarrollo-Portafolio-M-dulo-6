@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #eef2f5;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.grid {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.buscador {
+  margin-bottom: 20px;
+  padding: 8px;
+}

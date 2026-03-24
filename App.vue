@@ -1,11 +1,18 @@
-<script setup></script>
-
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <div class="container">
+    <header>
+      <h1>🌤 App de Clima</h1>
+
+      <nav>
+        <router-link to="/">Home</router-link>
+      </nav>
+    </header>
+
+    <main>
+      <router-view></router-view>
+    </main>
+  </div>
 </template>
 
-<style scoped></style>
+<script setup>
+</script>
